@@ -29,13 +29,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="User Full Name"/>
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:text="User Full Name" />
 
         <EditText
-            android:layout_width="match_parent"
+            android:layout_weight="0.5"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:inputType="text" />
 
@@ -45,12 +48,14 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_weight="0.25"
+            android:layout_width="10dp"
             android:layout_height="wrap_content"
             android:text="Phone Number"/>
 
         <EditText
-            android:layout_width="match_parent"
+            android:layout_weight="0.5"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:inputType="number"/>
 
@@ -60,12 +65,14 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_weight="0.25"
+            android:layout_width="10dp"
             android:layout_height="wrap_content"
             android:text="City"/>
 
         <EditText
-            android:layout_width="241dp"
+            android:layout_weight="0.5"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:inputType="text" />
 
@@ -75,12 +82,14 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_weight="0.25"
+            android:layout_width="10dp"
             android:layout_height="wrap_content"
             android:text="Email"/>
 
         <EditText
-            android:layout_width="match_parent"
+            android:layout_weight="0.5"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress" />
 
@@ -90,12 +99,14 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_weight="0.25"
+            android:layout_width="10dp"
             android:layout_height="wrap_content"
             android:text="Password"/>
 
         <EditText
-            android:layout_width="match_parent"
+            android:layout_weight="0.5"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:inputType="numberPassword" />
 
@@ -105,13 +116,14 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-            android:id="@+id/textView6"
-            android:layout_width="wrap_content"
+            android:layout_weight="0.25"
+            android:layout_width="10dp"
             android:layout_height="wrap_content"
             android:text="Confirm Password"/>
 
         <EditText
-            android:layout_width="match_parent"
+            android:layout_weight="0.5"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:inputType="numberPassword" />
 
@@ -119,10 +131,27 @@
 </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Do you have an account?" />
+        android:layout_height="80dp"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:text="Do you have an account?" />
+
+
+        <Button
+            android:id="@+id/signuptologin"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:background="#00ffffff"
+            android:text="Login"
+            android:textColor="#ff1493" />
+    </LinearLayout>
 
 
 </LinearLayout>
