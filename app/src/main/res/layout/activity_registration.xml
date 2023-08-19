@@ -31,9 +31,9 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="10dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="0.25"
+            android:layout_weight="0.045"
             android:text="User Full Name" />
 
         <EditText
@@ -65,8 +65,8 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-            android:layout_weight="0.25"
-            android:layout_width="10dp"
+            android:layout_weight="0.22"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="City"/>
 
@@ -82,8 +82,8 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-            android:layout_weight="0.25"
-            android:layout_width="10dp"
+            android:layout_weight="0.20"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Email"/>
 
@@ -99,8 +99,8 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-            android:layout_weight="0.25"
-            android:layout_width="10dp"
+            android:layout_weight="0.13"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Password"/>
 
@@ -116,8 +116,8 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-            android:layout_weight="0.25"
-            android:layout_width="10dp"
+            android:layout_weight="0"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Confirm Password"/>
 
